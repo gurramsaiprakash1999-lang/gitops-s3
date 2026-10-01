@@ -15,7 +15,7 @@ provider "aws" {
 # S3 bucket names must be globally unique across all AWS accounts.
 # Replace 'unique-bucket-name-student-98765' with your own custom name!
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "gitops-s3-bucket-1"
+  bucket = "gitops-s3-bucket-2-10-2025"
 
   tags = {
     Name        = "My GitOps Bucket"
